@@ -8,12 +8,12 @@ public class Main {  public static void main(String[] args) {
     AnimalTable animalsTable = new AnimalTable();
     ArrayList<Animals> animals = animalsTable.selectAll();
     if(animals.isEmpty()) {
-        animalsTable.insert(new Animals("кошка", "Барсик", "Белый", 12, 5));
-        animalsTable.insert(new Animals("собака", "Тузик", "Черный", 15, 4));
-        animalsTable.insert(new Animals("утка", "Утя", "Желтый", 3, 3));
+        animalsTable.insert(new Animals("кошка", "Васька", "Белый", 12, 5));
+        animalsTable.insert(new Animals("собака", "Риччи", "Черный", 15, 4));
+        animalsTable.insert(new Animals("утка", "Дональд", "Желтый", 3, 3));
         animals = animalsTable.selectAll();
     }
-
+/*
     for (Animals tmp:animals) {
         System.out.println(tmp.toString());
     }
@@ -35,7 +35,7 @@ public class Main {  public static void main(String[] args) {
         System.out.println(tmp.toString());
 
     }
-   // ArrayList<Animals> animals = animalsTable.selectByType();
+   // ArrayList<Animals> animals = animalsTable.selectByType();*/
 
 
 }
