@@ -13,7 +13,7 @@ public class Main {  public static void main(String[] args) {
         animalsTable.insert(new Animals("утка", "Дональд", "Желтый", 3, 3));
         animals = animalsTable.selectAll();
     }
-/*
+
     for (Animals tmp:animals) {
         System.out.println(tmp.toString());
     }
@@ -35,7 +35,7 @@ public class Main {  public static void main(String[] args) {
         System.out.println(tmp.toString());
 
     }
-   // ArrayList<Animals> animals = animalsTable.selectByType();*/
+      //  ArrayList<Animals> animals = animalsTable.selectByType();
 
 
 }
